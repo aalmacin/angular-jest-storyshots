@@ -3,7 +3,7 @@
 ## Update angular.json to use jest builder
 
 `angular.json`
-```
+```json
 // ...
 
   "test": {
@@ -12,4 +12,13 @@
   }
 
 // ...
+```
+
+# Storybook Setup
+
+## Initialize Storybook
+
+```sh
+  npm i -g @storybook/cli
+  sb init --type angular
 ```
